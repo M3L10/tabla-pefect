@@ -1,0 +1,102 @@
+/* CSS Document */
+
+div.cabecera{
+	position:absolute;
+	top:10px;
+	left:1%;
+	width:99.5%;
+	height:104px;
+	color:#009966;
+	background:#000066 url(../imagenes/fondo1.jpg);
+}
+
+div.izq{
+	position:absolute;
+	top:115px;
+	left:1%;
+	width:20%;
+	height:77.2%;
+	background:#33FF33;
+	border:5 solid color:white;
+}
+
+div.cuerpo{
+	position:absolute;
+	top:115px;
+	left:21.2%;
+	width:60%;
+	height:77.2%;
+	background:#FF6600;
+}
+
+div.der{
+	position:absolute;
+	top:115px;
+	left:81.3%;
+	width:19%;
+	height:77.2%;
+	background:#33FF33;
+	border:5 solid color:white;
+}
+div.pie{
+	position:absolute;
+	top:90%;
+	left:1%;
+	width:99%;
+	height:10%;
+	color:#white;
+	background:#993300;
+	border:5 solid color:#456789;
+}
+a:link{
+height:0px;
+width:inherit;
+color:#FFFFFF;
+}
+a:visited{
+height:0px;
+width:inherit;
+color:#1B3280;
+}
+a:hover{
+height:0px;
+width:inherit;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#FF9933;
+font-weight:bold;
+}
+.menu {
+	padding:1px 1px 25px;
+	margin:0;
+	list-style: none;
+	height: 6px;
+	border: 1px solid#ddd;
+	border-bottom:1px solid#add; 
+	background:#FFFF66 ;
+}
+.menu li {
+	float:left;
+}
+.menu li a {
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	color: #1B3280;
+	text-decoration: none;
+	font-size: 20px;+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	padding: 0px 0px 0px 10px;
+}
+.menu li a b {
+	float: left;
+	padding: 0px 15px 10px 100px;
+}
+.menu li a:hover{
+	color:#FFFFFF;
+	background: rgb(81, 109, 202);
+}
+
